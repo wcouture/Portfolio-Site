@@ -49,7 +49,7 @@
         ?>
         </div>
         <div id="project-details-container" class="project-details">
-            <a href="https://fo-stat.willc-dev.net" target="blank" id="project-title" class="project-title">
+            <a href="https://fo-stats.willc-dev.net" target="blank" id="project-title" class="project-title">
                 Face Off Stats Website
             </a>
             <a id="repo-link" target="blank" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
