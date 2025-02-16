@@ -167,26 +167,32 @@
 
 .project-title {
     font-size: 18pt;
-    border-top: 2px solid #AAA;
+    max-width: 20%;
+    text-align: center;
 }
 .project-description {
     font-size: 12pt;
-    margin-top: 15px;
-    margin-bottom: 50px;
 }
 
 .project-details {
+    height: 70px;
     opacity: 100%;
+    border-top: 2px solid #AAA;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding-top: 5px;
     transition: ease-in-out .5s;
 }
-
 .project-details.hidden {
     opacity: 0%;
     transition: ease-in-out .5s;
 }
-
 .repo-link {
     color: rgb(47, 0, 128);
+    max-width: 15%;
 }
 
 .middle-column {

@@ -48,18 +48,19 @@
             }
         ?>
         </div>
-        <div id="iframe-container" class="iframe-container">
-            <iframe id="project-iframe" class="project-iframe" src="https://fo-stats.willc-dev.net" title="Project Demo Iframe"></iframe>
-        </div>
         <div id="project-details-container" class="project-details">
             <div id="project-title" class="project-title">
                 Face Off Stats Website
             </div>
-            <a id="repo-link" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a>
+            <a id="repo-link" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
             <div id="project-description" class="project-description">
                 This is where the description will go.
             </div>
         </div>
+        <div id="iframe-container" class="iframe-container">
+            <iframe id="project-iframe" class="project-iframe" src="https://fo-stats.willc-dev.net" title="Project Demo Iframe"></iframe>
+        </div>
+        
     </div>
     <div class="right-column"></div>
 </div>
