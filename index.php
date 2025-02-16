@@ -49,10 +49,10 @@
         ?>
         </div>
         <div id="project-details-container" class="project-details">
-            <div id="project-title" class="project-title">
+            <a href="https://fo-stat.willc-dev.net" target="blank" id="project-title" class="project-title">
                 Face Off Stats Website
-            </div>
-            <a id="repo-link" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
+            </a>
+            <a id="repo-link" target="blank" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
             <div id="project-description" class="project-description">
                 This is where the description will go.
             </div>

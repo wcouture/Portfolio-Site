@@ -12,21 +12,6 @@ var repo_link = document.getElementById("repo-link");
 
 var running = false;
 
-function get_project_source(id) {
-    switch (parseInt(id)) {
-        case 1:
-            return "https://fo-stats.willc-dev.net";
-        case 2:
-            return "https://semblueinc.com";
-        case 3:
-            return "https://servius.tech";
-        case 4:
-            return "https://viewmyplans.com";
-        default:
-            return "https://fo-stats.willc-dev.net";
-    }
-}
-
 function select_project(element) {
     if (running || element.id == last_active_id)
         return;
@@ -52,6 +37,7 @@ function select_project(element) {
         item = portfolio_items[last_active_id];
         demo_iframe.src = item["src"];
         project_title.innerText = item["title"];
+        project_title.href = item["src"];
         project_description.innerText = item["description"];
         repo_link.href = item["repo_link"];
 
@@ -69,3 +55,5 @@ function select_project(element) {
             },500);
     }, 1000);
 }
+
+select_project(document.getElementById('0'));
