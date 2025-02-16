@@ -19,7 +19,7 @@ INSERT INTO portfolio_item (
     "Face Off Statistics",
     "Website to view the game-to-game statistics break down for Florida State Men's Club Lacrosse faceoff players.",
     "https://github.com/wcouture/FO-Stats-PHP",
-    "https://github.com/wcouture/FO-Stats-PHP",
+    "https://fo-stats.willc-dev.net",
     1
 );
 
