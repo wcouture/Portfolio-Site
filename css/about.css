@@ -1,0 +1,48 @@
+.about-container {
+    padding-top: 180px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.profile-image {
+    width: 300px;
+    height: auto;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0, 0.3);
+}
+
+.about-header {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.about-name {
+    font-size: 36pt;
+    text-align: center;
+}
+
+.about-subtitle {
+    text-align: center;
+}
+
+.about-bio {
+    text-align: left;
+    padding-top: 30px;
+    font-size: 10pt;
+    line-height: 1.5;
+}

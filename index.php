@@ -54,7 +54,7 @@
             </a>
             <a id="repo-link" target="blank" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
             <div id="project-description" class="project-description">
-                This is where the description will go.
+                Website to view the game-to-game statistics break down for Florida State Men's Club Lacrosse faceoff players.
             </div>
         </div>
         <div id="iframe-container" class="iframe-container">
