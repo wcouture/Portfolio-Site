@@ -1,8 +1,14 @@
-var last_active_id = 1; // Initialize as the starting project tab ID
+var last_active_id = 0; // Initialize as the starting project tab ID
 document.getElementById(last_active_id).className = "select-option active";
 
-var demo_iframe = document.getElementById("project-iframe");
 var demo_container = document.getElementById("iframe-container");
+var details_container = document.getElementById("project-details-container");
+
+// Portfolio item elements
+var demo_iframe = document.getElementById("project-iframe");
+var project_title = document.getElementById("project-title");
+var project_description = document.getElementById("project-description");
+var repo_link = document.getElementById("repo-link");
 
 var running = false;
 
@@ -37,15 +43,25 @@ function select_project(element) {
 
     demo_iframe.className = "project-iframe hidden";
     demo_container.className = "iframe-container hidden";
+    details_container.className = "project-details hidden";
 
 
 
     setTimeout(() => {
-        demo_iframe.src = get_project_source(last_active_id);
+        // Update project data
+        item = portfolio_items[last_active_id];
+        demo_iframe.src = item["src"];
+        project_title.innerText = item["title"];
+        project_description.innerText = item["description"];
+        repo_link.href = item["repo_link"];
+
+
         demo_iframe.className = "project-iframe";
+
     }, 500);
     setTimeout(() => {
         demo_container.className = "iframe-container revealing";
+        details_container.className = "project-details"
         setTimeout(
             () => {
                 demo_container.className = "iframe-container";

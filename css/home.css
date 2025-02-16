@@ -3,7 +3,7 @@
     height: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     gap: 20px;
 }
 
@@ -36,7 +36,7 @@
     height: 10px;
     margin: 0 auto;
     left: 62px;
-    top: 60px;
+    bottom: 45px;
     z-index: 1;
     background: rgb(189, 175, 145);
     border: 4px solid rgb(60, 60, 60);
@@ -56,7 +56,7 @@
     height: 10px;
     margin: 0 auto;
     left: 62px;
-    top: 60px;
+    bottom: 45px;
     z-index: 1;
     background: rgb(255, 186, 39);
     border: 4px solid rgb(60, 60, 60);
@@ -75,10 +75,16 @@
     cursor:pointer;
 }
 
+.select-option-data {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
 .iframe-container {
     width: 100%;
-    margin: 60px 0 15px 0;
-    height: 480px;
+    margin: 20px 0 15px 0;
+    height: 600px;
     background-color: #222;
     display: flex; 
     justify-content: center;
@@ -87,7 +93,7 @@
 
 .project-iframe {
     width: 1024px;
-    height: 480px;
+    height: 600px;
     opacity: 100%;
     z-index: 0;
     border: 2px solid #AAA;
@@ -98,15 +104,15 @@
     opacity: 0%;
     transition: ease-out 0.5s;
     position: relative;
+    display: flex;;
 }
 
 .iframe-container::before {
     position:absolute;
     content: '';
-    top:373px;
-    left:-500px;
-    width: 520px;
-    height: 480px;
+    left: -100%;
+    width: 525px;
+    height: 600px;
     background-image: url(/images/cartographer.png);
     background-color: #aaa;
     background-repeat: repeat;
@@ -119,10 +125,9 @@
 .iframe-container::after {
     position: absolute;
     content: '';
-    top:373px;
-    right:-500px;
+    right: -100%;
     width: 525px;
-    height: 480px;
+    height: 600px;
     background-image: url(/images/cartographer.png);
     background-color: #aaa;
     background-repeat: repeat;
@@ -134,13 +139,13 @@
 }
 
 .iframe-container.hidden::before {
-    left:225px;
+    left:15%;
     z-index: 2;
     transition: ease-in .5s;
 
 }
 .iframe-container.hidden::after {
-    right:225px;
+    right:15%;
     z-index: 2;
     transition: ease-in .5s;
 }
@@ -168,6 +173,16 @@
     font-size: 12pt;
     margin-top: 15px;
     margin-bottom: 50px;
+}
+
+.project-details {
+    opacity: 100%;
+    transition: ease-in-out .5s;
+}
+
+.project-details.hidden {
+    opacity: 0%;
+    transition: ease-in-out .5s;
 }
 
 .repo-link {
