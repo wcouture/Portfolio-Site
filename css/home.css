@@ -115,10 +115,10 @@
     left: -100%;
     width: 1024px;
     height: 600px;
-    background-image: url(/images/cartographer.png);
+    background-image: url(/images/cubes.png);
     background-color: #aaa;
     background-repeat: repeat;
-    background-size: contain;
+    background-size: auto;
     background-position: center;
     border: 1px solid #222;
 
@@ -130,10 +130,10 @@
     right: -100%;
     width: 1024px;
     height: 600px;
-    background-image: url(/images/cartographer.png);
+    background-image: url(/images/cubes.png);
     background-color: #aaa;
     background-repeat: repeat;
-    background-size: contain;
+    background-size: auto;
     background-position: center;
     transform: scaleX(-1);
     border: 1px solid #222;
