@@ -28,6 +28,10 @@ body {
 
 .header-nav-container {
     position: fixed;
+
+    left: 0px;
+    top: 0px;
+
     width: 100%;
     height: 100px;
 
@@ -46,7 +50,7 @@ body {
     align-items: flex-start;
     margin-left: 50px;
     margin-top: 50px;
-    gap: 20px;
+    width: 100px;
     transition: ease-in-out 1s;
 }
 
