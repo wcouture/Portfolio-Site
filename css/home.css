@@ -89,6 +89,7 @@
     display: flex; 
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .project-iframe {
@@ -110,8 +111,9 @@
 .iframe-container::before {
     position:absolute;
     content: '';
+    top: 0;
     left: -100%;
-    width: 525px;
+    width: 1024px;
     height: 600px;
     background-image: url(/images/cartographer.png);
     background-color: #aaa;
@@ -126,7 +128,7 @@
     position: absolute;
     content: '';
     right: -100%;
-    width: 525px;
+    width: 1024px;
     height: 600px;
     background-image: url(/images/cartographer.png);
     background-color: #aaa;
@@ -139,13 +141,14 @@
 }
 
 .iframe-container.hidden::before {
-    left:15%;
+    left: -50%;
+    top: 0;
     z-index: 2;
     transition: ease-in .5s;
-
 }
 .iframe-container.hidden::after {
-    right:15%;
+    right: -50%;
+    top: 0;
     z-index: 2;
     transition: ease-in .5s;
 }
