@@ -13,16 +13,14 @@ if (isset($_POST["submit"])) {
     $subject = $_POST["subject"];
     $message = $_POST["message"] . "\nFROM: " . $email;
 
-    $to = "wcouture17@gmail.com";
-    $headers = "From: wcouture17@gmail.com" . "\r\n";
+    $date = date('y-m-d-h:m:s');
+    $filename = $root . "/emails/email_" . $date . '.txt';
 
-    $result = mail($to,$subject,$message,$headers);
-    if ($result) {
-        echo "Successfully sent message!";
-    }
-    else  {
-        echo error_get_last()['message'];
-    }
+    $email_file = fopen($filename, 'w');
+
+    $output = "Email: " .  $email . "\nSubject: " . $subject . "\nMessage: " . $message; 
+    fwrite($email_file, $output);
+    fclose($email_file);
 }
 
 ?>
@@ -30,7 +28,7 @@ if (isset($_POST["submit"])) {
 <div class="contact-container">
     <div class="row">
         <div class="contact-form">
-            <form name="contact-form" action="contact.php" method="POST">
+            <form name="contact-form" action="" method="POST">
                 <table class="contact-form-table">
                     <tr>
                         <td class="form-label" width="100px">Email:</td>
