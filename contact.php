@@ -12,8 +12,12 @@ if (isset($_POST["submit"])) {
     $to = "wcouture17@gmail.com";
     $headers = "From: wcouture17@gmail.com" . "\r\n";
 
-    if (mail($to,$subject,$message,$headers)) {
+    $result = mail($to,$subject,$message,$headers);
+    if ($result) {
         echo "Successfully sent message!";
+    }
+    else  {
+        echo error_get_last()['message'];
     }
 }
 
