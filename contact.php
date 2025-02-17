@@ -2,7 +2,21 @@
 $root = $_SERVER["DOCUMENT_ROOT"];
 $page_title = "contact";
 $page_css = "<link rel='stylesheet' type='text/css' href='css/contact.css'>";
-include_once $root . "/includes/header.php"
+include_once $root . "/includes/header.php";
+
+if (isset($_POST["submit"])) {
+    $email = $_POST["email"];
+    $subject = $_POST["subject"];
+    $message = $_POST["message"] . "\nFROM: " . $email;
+
+    $to = "wcouture17@gmail.com";
+    $headers = "From: wcouture17@gmail.com" . "\r\n";
+
+    if (mail($to,$subject,$message,$headers)) {
+        echo "Successfully sent message!";
+    }
+}
+
 ?>
 
 <div class="contact-container">
@@ -48,5 +62,5 @@ include_once $root . "/includes/header.php"
 </div>
 
 <?php
-include_once $root . "/includes/footer.js";
+include_once $root . "/includes/footer.php";
 ?>

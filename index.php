@@ -66,5 +66,5 @@
 </div>
 <script src="/js/explore-select-buttons.js"></script>
 <?php
-include_once $root . "/includes/footer.js";
+include_once $root . "/includes/footer.php";
 ?>

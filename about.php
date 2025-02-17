@@ -27,5 +27,5 @@ include_once $root . "/includes/header.php"
     </div>
 </div>
 <?php 
-include_once $root . "/includes/footer.js";
+include_once $root . "/includes/footer.php";
 ?>

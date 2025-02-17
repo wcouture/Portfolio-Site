@@ -27,3 +27,4 @@
             <a href="/contact" class="nav-item <?php if ($page_title == "contact") echo "active"; ?>">Contact</a>
         </div>
         <script src="/js/move-header-onscroll.js"></script>
+        <div id="page-content" class="page-content preload">
