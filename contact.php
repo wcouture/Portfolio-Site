@@ -1,4 +1,8 @@
 <?php
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
+
 $root = $_SERVER["DOCUMENT_ROOT"];
 $page_title = "contact";
 $page_css = "<link rel='stylesheet' type='text/css' href='css/contact.css'>";
