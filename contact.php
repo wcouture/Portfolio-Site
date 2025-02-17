@@ -21,6 +21,8 @@ if (isset($_POST["submit"])) {
     $output = "Email: " .  $email . "\nSubject: " . $subject . "\nMessage: " . $message; 
     fwrite($email_file, $output);
     fclose($email_file);
+
+    $message_sent = true;
 }
 
 ?>
@@ -49,7 +51,13 @@ if (isset($_POST["submit"])) {
                     </tr>
                 </table>
             </form>
+            <?php if(isset($message_sent) && $message_sent) { ?>
+            <div class="message-sent-box">
+                Message sent successfully!
+            </div>
+            <?php } ?>
         </div>
+
         <div class="contact-info-container">
             <div class="contact-header">
                 Contact Me!

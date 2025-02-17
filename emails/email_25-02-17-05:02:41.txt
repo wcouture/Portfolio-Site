@@ -1,4 +1,0 @@
-Email: wfsu.media@gmail.com
-Subject: Programming Inquiry
-Message: Test message
-FROM: wfsu.media@gmail.com
