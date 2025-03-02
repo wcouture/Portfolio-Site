@@ -64,7 +64,7 @@
             </div>
         </div>
         <div id="iframe-container" class="iframe-container">
-            <iframe id="project-iframe" class="project-iframe" src="https://fo-stats.willc-dev.net" title="Project Demo Iframe"></iframe>
+            <iframe id="project-iframe" class="project-iframe" src="<?php echo $item["src"]?>" title="Project Demo Iframe"></iframe>
         </div>
         
     </div>
