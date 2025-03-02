@@ -9,7 +9,7 @@
     include $root . "/includes/db-connect.php";
 
     $db = create_db_connection('portfolio');
-    $sql = "SELECT * FROM portfolio_item;";
+    $sql = "SELECT * FROM portfolio_item ORDER BY id;";
     $results = $db->query($sql);
     
     if ($results->num_rows <= 0) {

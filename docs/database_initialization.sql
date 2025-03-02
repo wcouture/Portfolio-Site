@@ -36,3 +36,17 @@ INSERT INTO portfolio_item (
     "/games/innoculation/index.html",
     1
 );
+
+INSERT INTO portfolio_item (
+    title, 
+    description, 
+    repo_link, 
+    src, 
+    demo
+) VALUES (
+    "SolarSim",
+    "Explore in this to-scale simulated solar system! View all of the solar system's major planets along with many of their major moons. Learn about the physical and orbital properties of the bodies that make up our solar system.",
+    "https://github.com/wcouture/PlanetaryBodies",
+    "https://planets.willc-dev.net",
+    1
+);
