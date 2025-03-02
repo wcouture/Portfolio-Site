@@ -11,6 +11,8 @@
     $db = create_db_connection('portfolio');
     $sql = "SELECT * FROM portfolio_item ORDER BY id DESC;";
     $results = $db->query($sql);
+
+    $item = null;
     
     if ($results->num_rows <= 0) {
         echo "Failed retrieving portfolio data";
@@ -31,7 +33,11 @@
         <div class="project-select-container">
         <?php 
             $i = 0;
-            while ($row = $results->fetch_assoc()) { ?>
+            while ($row = $results->fetch_assoc()) { 
+                if ($i == 0) {
+                    $item = $row;
+                }
+                ?>
                 <div id="<?php echo $i; ?>" onclick="select_project(this)" class="select-option"><?php echo $row["title"]; ?>
                     <script>
                         item = {
@@ -49,12 +55,12 @@
         ?>
         </div>
         <div id="project-details-container" class="project-details">
-            <a href="https://fo-stats.willc-dev.net" target="blank" id="project-title" class="project-title">
-                Face Off Stats Website
+            <a href="<?php echo $item["src"]?>" target="blank" id="project-title" class="project-title">
+                <?php echo $item["title"]?>
             </a>
-            <a id="repo-link" target="blank" href="https://github.com/wcouture/FO-Stats-PHP/" class="repo-link">GitHub Repo</a><br>
+            <a id="repo-link" target="blank" href="<?php echo $item["repo_link"]?>" class="repo-link">GitHub Repo</a><br>
             <div id="project-description" class="project-description">
-                Website to view the game-to-game statistics break down for Florida State Men's Club Lacrosse faceoff players.
+                <?php echo $item["description"]?>
             </div>
         </div>
         <div id="iframe-container" class="iframe-container">
