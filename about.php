@@ -7,7 +7,7 @@ include_once $root . "/includes/header.php"
 <div class="about-container">
     <div class="row">
         <div class="profile-image">
-            <img src="/images/profile.jpeg" alt="Headshot of William Couture">
+            <img src="/images/profile-pic.jpeg" alt="Headshot of William Couture">
         </div>
         <div class="about-header">
             <div class="about-name">
