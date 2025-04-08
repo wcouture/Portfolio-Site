@@ -5,7 +5,8 @@ $page_css = "<link rel='stylesheet' type='text/css' href='/css/about.css'>";
 ?>
 <div class="about-container">
     <div class="row">
-    <style>
+        <div style="width: 50%, margin: 0 auto">
+        <style>
   [data-custom-class='body'], [data-custom-class='body'] * {
           background: transparent !important;
         }
@@ -58,6 +59,8 @@ word-break: break-word !important;
         font-family: Arial ;
       }
     </style>
+        </div>
+    
       </div>
       
     </div>
