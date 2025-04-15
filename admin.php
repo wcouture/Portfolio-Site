@@ -3,8 +3,6 @@ $root = $_SERVER["DOCUMENT_ROOT"];
 
 $page_title = "admin";
 $page_css = "<link rel='stylesheet' type='text/css' href='/css/admin.css'>";
-
-include_once $root . "/includes/header.php";
 include_once $root . "/includes/db-connect.php";
 
 $authorized = false;
