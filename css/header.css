@@ -94,7 +94,8 @@ body {
 }
 
 .footer-message {
+  padding: 25px;
   width: 100%;
   text-align: center;
-  color: #aaa;
+  color: #777;
 }
