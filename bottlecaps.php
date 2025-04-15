@@ -19,10 +19,10 @@ Easily track and manage your budget through an easy to understand interface. Cre
 
 This is an <a href="https://expo.dev">Expo</a> project created with <a href="https://www.npmjs.com/package/create-expo-app">`create-expo-app`</a>.
 
-- <strong>Package Manager</strong>: [NPM](https://www.npmjs.com/)
-- <strong>Framework</strong>: [React Native](https://reactnative.dev/)
-- <strong>Database</strong>: [Expo SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) <i>&</i> [Drizzle ORM](https://orm.drizzle.team/docs/overview)
-- <strong>Charts</strong>: [Gifted Charts](https://gifted-charts.web.app/)
+- <strong>Package Manager</strong>: <a href="https://www.npmjs.com/">NPM</a>
+- <strong>Framework</strong>: <a href="https://reactnative.dev/">React Native</a>
+- <strong>Database</strong>: <a href="https://docs.expo.dev/versions/latest/sdk/sqlite/">Expo SQLite</a> <i>&</i> <a href="https://orm.drizzle.team/docs/overview">Drizzle ORM</a>
+- <strong>Charts</strong>: <a href="https://gifted-charts.web.app/">Gifted Charts</a>
 
 <h2>Get started</h2>
 
