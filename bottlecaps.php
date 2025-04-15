@@ -13,6 +13,11 @@ body{
     color: #FFF;
     width: auto;
 }
+img {
+    margin: 15px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
 </style>
 
 <body>
