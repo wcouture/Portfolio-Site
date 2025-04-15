@@ -4,7 +4,7 @@ $root = $_SERVER["DOCUMENT_ROOT"];
 <style>
 body{
     padding: 100px;
-    font-family: consolas;
+    font-family: monospace;
 }
 .bash {
     background-color: #666;
@@ -20,7 +20,7 @@ img {
 }
 .iframe-container {
     width: 60%;
-    height: 300px;
+    height: 600px;
 }
 iframe{
     width: 100%;
