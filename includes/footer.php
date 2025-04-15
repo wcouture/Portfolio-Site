@@ -6,6 +6,11 @@
     
 </script>
 </div>
+
+<div class="footer-message">
+    View www.willc-dev.net's source code <a href="https://github.com/wcouture/Portfolio-Site">here</a>. 
+</div>
+
 </body>
 <footer>
 </footer>
