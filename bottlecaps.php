@@ -7,10 +7,11 @@ body{
     font-family: consolas;
 }
 .bash {
-    background-color: #888;
+    background-color: #666;
     padding: 10px;
     border-radius: 10px;
-    color: #DDD;
+    color: #FFF;
+    width: auto;
 }
 </style>
 
@@ -52,7 +53,7 @@ This is an <a href="https://expo.dev">Expo</a> project created with <a href="htt
    npm install
    </p>
 
-   <i>Execute the previous command within the root directory of the cloned repository.</i>
+   <i>Execute the previous command within the root directory of the cloned repository.</i><br>
 
 3. <strong>Start the app</strong>
 
