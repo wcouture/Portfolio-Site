@@ -1,4 +1,4 @@
-# willc-dev.net
+# [willc-dev.net](https://www.willc-dev.net)
 
 Welcome to willc-dev.net where I display my most recent completed software development projects. These projects can include data management apps and websites, educational simulations, indie games, and more. Explore the projects I've completed, learn more about me, and view my contact information if you like what you see!
 
