@@ -46,10 +46,9 @@ Easily track and manage your budget through an easy to understand interface. Cre
 
 <h2>Framework and Dependencies</h2>
 
-This is an <a href="https://expo.dev">Expo</a> project created with <a href="https://www.npmjs.com/package/create-expo-app">`create-expo-app`</a>.
-
 <ul>
     <li><strong>Package Manager</strong>: <a href="https://www.npmjs.com/">NPM</a></li>
+    <li><strong>Build Platform</strong>: <a href="https://expo.dev">Expo</a></li>
     <li><strong>Framework</strong>: <a href="https://reactnative.dev/">React Native</a></li>
     <li><strong>Database</strong>: <a href="https://docs.expo.dev/versions/latest/sdk/sqlite/">Expo SQLite</a> <i>&</i> <a href="https://orm.drizzle.team/docs/overview">Drizzle ORM</a></li>
     <li><strong>Charts</strong>: <a href="https://gifted-charts.web.app/">Gifted Charts</a></li>
