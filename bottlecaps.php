@@ -18,6 +18,13 @@ img {
     border: 2px solid #333;
     border-radius: 10px;
 }
+.iframe-container {
+    width: 60%;
+    height: 300px;
+}
+iframe{
+    width: 100%;
+}
 </style>
 
 <body>
@@ -76,8 +83,9 @@ In the output, you'll find options to open the app in a
     <li><a href="https://expo.dev/go">Expo Go</a>, a limited sandbox for trying out app development with Expo</li>
 </ul>
 
-Source files are located within the <strong>app</strong> directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Source files are located within the <strong>app</strong> directory. This project uses <a href="https://docs.expo.dev/router/introduction">file-based routing</a>.
 
-EULA:
-<iframe src="/includes/bottlecaps-eula.php" ></iframe>
+<div class="iframe-container">
+    <iframe src="/includes/bottlecaps-eula.php" ></iframe>
+</div>
 </body>
