@@ -1,6 +1,14 @@
 <?php
 $root = $_SERVER["DOCUMENT_ROOT"];
 ?>
+<style>
+body{
+    padding: 100px;
+    font-family: consolas;
+}
+</style>
+
+<body>
 
 <h1>Welcome to bottle-caps 👋</h1>
 Easily track and manage your budget through an easy to understand interface. Create categories and budgeting periods to easily track and your expenses. View a category's details page to view your history of spending within that category. It's really that simple; it's budgeting made easy.
@@ -57,3 +65,4 @@ Source files are located within the <strong>app</strong> directory. This project
 
 EULA:
 <iframe src="/includes/bottlecaps-eula.php" ></iframe>
+</body>
