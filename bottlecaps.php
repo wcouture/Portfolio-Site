@@ -5,6 +5,7 @@ $root = $_SERVER["DOCUMENT_ROOT"];
 body{
     padding: 100px;
     font-family: monospace;
+    background: white;
 }
 .bash {
     background-color: #666;
