@@ -34,10 +34,12 @@ Easily track and manage your budget through an easy to understand interface. Cre
 
 This is an <a href="https://expo.dev">Expo</a> project created with <a href="https://www.npmjs.com/package/create-expo-app">`create-expo-app`</a>.
 
-- <strong>Package Manager</strong>: <a href="https://www.npmjs.com/">NPM</a>
-- <strong>Framework</strong>: <a href="https://reactnative.dev/">React Native</a>
-- <strong>Database</strong>: <a href="https://docs.expo.dev/versions/latest/sdk/sqlite/">Expo SQLite</a> <i>&</i> <a href="https://orm.drizzle.team/docs/overview">Drizzle ORM</a>
-- <strong>Charts</strong>: <a href="https://gifted-charts.web.app/">Gifted Charts</a>
+<ul>
+    <li><strong>Package Manager</strong>: <a href="https://www.npmjs.com/">NPM</a></li>
+    <li><strong>Framework</strong>: <a href="https://reactnative.dev/">React Native</a></li>
+    <li><strong>Database</strong>: <a href="https://docs.expo.dev/versions/latest/sdk/sqlite/">Expo SQLite</a> <i>&</i> <a href="https://orm.drizzle.team/docs/overview">Drizzle ORM</a></li>
+    <li><strong>Charts</strong>: <a href="https://gifted-charts.web.app/">Gifted Charts</a></li>
+</ul>
 
 <h2>Get started</h2>
 
@@ -53,7 +55,7 @@ This is an <a href="https://expo.dev">Expo</a> project created with <a href="htt
    npm install
    </p>
 
-   <i>Execute the previous command within the root directory of the cloned repository.</i><br>
+   <i>Execute the previous command within the root directory of the cloned repository.</i><br><br>
 
 3. <strong>Start the app</strong>
 
@@ -62,11 +64,12 @@ This is an <a href="https://expo.dev">Expo</a> project created with <a href="htt
    </p>
 
 In the output, you'll find options to open the app in a
-
-- <a href="https://docs.expo.dev/develop/development-builds/introduction/">development build</a>
-- <a href="https://docs.expo.dev/workflow/android-studio-emulator/">Android emulator</a>
-- <a href="https://docs.expo.dev/workflow/ios-simulator/">iOS simulator</a>
-- <a href="https://expo.dev/go">Expo Go</a>, a limited sandbox for trying out app development with Expo
+<ul>
+    <li><a href="https://docs.expo.dev/develop/development-builds/introduction/">development build</a></li>
+    <li><a href="https://docs.expo.dev/workflow/android-studio-emulator/">Android emulator</a></li>
+    <li><a href="https://docs.expo.dev/workflow/ios-simulator/">iOS simulator</a></li>
+    <li><a href="https://expo.dev/go">Expo Go</a>, a limited sandbox for trying out app development with Expo</li>
+</ul>
 
 Source files are located within the <strong>app</strong> directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
