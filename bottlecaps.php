@@ -6,6 +6,12 @@ body{
     padding: 100px;
     font-family: consolas;
 }
+.bash {
+    background-color: #888;
+    padding: 10px;
+    border-radius: 10px;
+    color: #DDD;
+}
 </style>
 
 <body>
