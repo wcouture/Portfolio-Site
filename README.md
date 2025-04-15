@@ -12,12 +12,12 @@ Welcome to willc-dev.net where I display my most recent completed software devel
 ### Clone the repository
 
 ```bash
-git clone https://github.com/wcouture/FO-Stats-PHP.git
+git clone https://github.com/wcouture/Portfolio-Site.git
 ```
 
 ### Configure Apache
 
-Modify the <i>httpd.conf</i> apache configuration file to set the root directory to the cloned respository. ("{<i>PATH_TO_CLONED_REPOSITORY</i>}/FO-Stats-PHP/")<br>
+Modify the <i>httpd.conf</i> apache configuration file to set the root directory to the cloned respository. ("{<i>PATH_TO_CLONED_REPOSITORY</i>}/Portfolio-Site/")<br>
 
 <i>If installed through a package manager, httpd.conf will likely be in one of the following locations:</i>
 
