@@ -35,7 +35,7 @@ else if (isset($_POST["submit"])) {
 
     $db = create_db_connection('portfolio');
 
-    $sql = 'INSERT INTO portfolio_item (title, description, repo_link, src, demo) VALUES ("'+ $proj_title + '","'+ $proj_desc + '","'+ $proj_repo + '","'+ $proj_src + '",1);';
+    $sql = 'INSERT INTO portfolio_item (title, description, repo_link, src, demo) VALUES ("'. $proj_title . '","'. $proj_desc + '","'. $proj_repo . '","'+ $proj_src . '",1);';
     $results = $db->query($sql);
 
     header('/');
