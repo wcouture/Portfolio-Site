@@ -57,8 +57,8 @@ else if (isset($_POST["submit"])) {
 
 if (!$authorized) {
 ?>
-<div>
-    <form method="post" action="admin.php">
+<div class="main_container">
+    <form class="auth_form" method="post" action="admin.php">
         <input type="text" placeholder="username" name="user"/>
         <input type="password" placeholder="password" name="pass"/>
         <input type="submit" name="auth_submit" value="submit"/>
