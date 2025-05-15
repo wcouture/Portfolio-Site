@@ -2,6 +2,3 @@ RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule (.+) /$1.php [QSA,L]
-
-Redirect bottlecaps /programs/bottlecaps.php [QSA, L]
-Redirect ^fostats-pp /includes/fostats-pp.php [QSA, L]
