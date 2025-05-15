@@ -29,7 +29,7 @@ if (isset($_POST["submit"])) {
 
 <div class="contact-container">
     <div class="row">
-        <div class="contact-form">
+        <!-- <div class="contact-form">
             <form name="contact-form" action="" method="POST">
                 <table class="contact-form-table">
                     <tr>
@@ -56,7 +56,7 @@ if (isset($_POST["submit"])) {
                 Message sent successfully!
             </div>
             <?php } ?>
-        </div>
+        </div> -->
 
         <div class="contact-info-container">
             <div class="contact-header">
@@ -70,6 +70,12 @@ if (isset($_POST["submit"])) {
             </div>
             <div class="category-info">
                 <a href="https://www.linkedin.com/in/wcouture/">https://www.linkedin.com/in/wcouture/</a>
+            </div>
+            <div class="category-header">
+                GitHub
+            </div>
+            <div class="category-info">
+                <a href="https://www.github.com/wcouture/">https://github.com/wcouture/</a>
             </div>
         </div>
     </div>
