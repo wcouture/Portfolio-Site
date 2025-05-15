@@ -20,12 +20,14 @@ body {
 
 .page-content {
   opacity: 0%;
-  transition: linear 0.3s;
   display: flex;
   justify-content: center;
+  transition: linear 0.3s;
 }
 .page-content.loaded {
   opacity: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .page-title {
