@@ -21,6 +21,8 @@ body {
 .page-content {
   opacity: 0%;
   transition: linear 0.3s;
+  display: flex;
+  justify-content: center;
 }
 .page-content.loaded {
   opacity: 100%;
