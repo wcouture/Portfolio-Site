@@ -5,7 +5,7 @@
 <html id="html-element" class="mulish-serif">
     <head>
         <meta charset="UTF-8">
-        <meta name="description" content="William Couture's Web, Game, and Software development portfolio website.">
+        <meta name="description" content="Portfolio of software, mobile, web, and game development projects.">
         <meta name="keywords" content="Various programming projects made with web, game, and software development focuses.">
         <meta name="author" content="William Couture">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
