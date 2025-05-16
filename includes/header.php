@@ -9,7 +9,7 @@
         <meta name="keywords" content="Various programming projects made with web, game, and software development focuses.">
         <meta name="author" content="William Couture">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta property="og:image" content="https://willc-dev.net/images/profile-pic.png">
+        <meta property="og:image" content="https://willc-dev.net/images/preview-image.jpg">
         <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel="stylesheet" type="text/css" href="games/innoculation/TemplateData/style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
