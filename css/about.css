@@ -48,17 +48,17 @@
 }
 
 .about-resume {
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .resume-link {
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1.5px solid black;
   transition: linear 0.3s;
 }
 
 .resume-link:hover {
-  scale: 101%;
+  scale: 102%;
   transition: linear 0.3s;
 }
