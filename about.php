@@ -17,11 +17,16 @@ include_once $root . "/includes/header.php"
                 Web Developer | IT Specialist
             </div>
             <div class="about-bio">
-            Graduating with a bachelor's of science in Computer Science and Cum Laude latin honors at Florida State University, my programming passion began years before, in high school, developing games with the Unity game engine. 
+            Graduating with a bachelor's of science in Computer Science and Cum Laude latin honors at Florida State University, programming has been a passion of mine since the beginning developing small video games in C# using the Unity game enigne.
             <br><br>
-            I have since branched into web development, redesigning a local company's website as well as configuring local deployment utilizing NodeJS, and now my current position as a PHP web developer and technician for WFSU Public Media. My drive for continuous improvement and passion for programming has motivated me to develop various side projects relating to data management and game development. 
+            More recently, I have branched into web development, designing a modern responsive website from the ground up utilizing NodeJS, and now with my current position as a PHP/WordPress developer and web technician at <a href="https://wfsu.org" target="_blank">WFSU Public Media</a>. My relentless drive for improvement and passion for programming has motivated me to develop various side projects to continually grow my skillset. The projects focus on data management, app development, education, and game development. 
             <br><br>
             This site aims to highlight several of my recent finished projects.
+            </div>
+            <div class="about-resume">
+                <a class="resume-link" href="/docs/resume.pdf">
+                    View Resume
+                </a>
             </div>
         </div>
     </div>
