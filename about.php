@@ -24,7 +24,7 @@ include_once $root . "/includes/header.php"
             This site aims to highlight several of my recent finished projects.
             </div>
             <div class="about-resume">
-                <a class="resume-link" href="/docs/resume.pdf">
+                <a class="resume-link" href="/docs/william-couture-resume.pdf">
                     View Resume
                 </a>
             </div>
