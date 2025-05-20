@@ -43,7 +43,7 @@ Follow along with the Florida State Men's club lacrosse face-off athletes and im
 
 <h3>Download Now!</h3>
 
-<a href="https://apps.apple.com/us/app/bottle-caps/id6744372300">Bottle-caps</a> is available for download in the IOS app store now!
+<!-- <a href="https://apps.apple.com/us/app/bottle-caps/id6744372300">Noles FO</a> is available for download in the IOS app store now! -->
 
 <h2>Framework and Dependencies</h2>
 
