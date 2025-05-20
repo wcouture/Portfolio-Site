@@ -1,0 +1,91 @@
+<?php
+$root = $_SERVER["DOCUMENT_ROOT"];
+?>
+<style>
+body{
+    padding: 100px;
+    font-family: monospace;
+    background: white;
+}
+.bash {
+    background-color: #666;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    width: auto;
+}
+img {
+    margin: 15px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+.iframe-container {
+    width: 60%;
+    height: 600px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+</style>
+
+<body>
+
+<h1>Welcome to Noles FO 🥍</h1>
+Follow along with the Florida State Men's club lacrosse face-off athletes and improve skills with the included training tools. View the individual game by game performances of each face-off athlete on the FSU lacrosse team throughout the season. Use the built in whistle and random cadence tool to improve your whistle discipline!
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/19/41/5319410d-3a34-bc96-f669-abff924a7c4a/home.png/400x800bb.png" width=200>
+   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/68/7e/d1687ebc-b420-0be0-6781-0e4ccab4a946/details.png/400x800bb.png" width=200>
+   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a7/00/65a700d8-a361-b9f4-2a68-2923e411bb39/expense.png/400x800bb.png" width=200>
+</div>
+
+<h3>Download Now!</h3>
+
+<a href="https://apps.apple.com/us/app/bottle-caps/id6744372300">Bottle-caps</a> is available for download in the IOS app store now!
+
+<h2>Framework and Dependencies</h2>
+
+<ul>
+    <li><strong>Package Manager</strong>: <a href="https://www.npmjs.com/">NPM</a></li>
+    <li><strong>Build Platform</strong>: <a href="https://expo.dev">Expo</a></li>
+    <li><strong>Framework</strong>: <a href="https://reactnative.dev/">React Native</a></li>
+    <li><strong>Statistics API</strong>: <a href="https://fo-stats.willc-dev.net">FO Stats</a>
+</ul>
+
+<h2>Get started</h2>
+
+1. <strong>Clone Repository</strong>
+
+   <p class="bash">
+   git clone https://github.com/wcouture/NolesFOStats.git
+   </p>    
+
+2. <strong>Install dependencies</strong>
+
+   <p class="bash">
+   npm install
+   </p>
+
+   <i>Execute the previous command within the root directory of the cloned repository.</i><br><br>
+
+3. <strong>Start the app</strong>
+
+   <p class="bash">
+    npx expo start
+   </p>
+
+In the output, you'll find options to open the app in a
+<ul>
+    <li><a href="https://docs.expo.dev/develop/development-builds/introduction/">development build</a></li>
+    <li><a href="https://docs.expo.dev/workflow/android-studio-emulator/">Android emulator</a></li>
+    <li><a href="https://docs.expo.dev/workflow/ios-simulator/">iOS simulator</a></li>
+    <li><a href="https://expo.dev/go">Expo Go</a>, a limited sandbox for trying out app development with Expo</li>
+</ul>
+
+Source files are located within the <strong>app</strong> directory. This project uses <a href="https://docs.expo.dev/router/introduction">file-based routing</a>.
+
+<div class="iframe-container">
+    <iframe src="/includes/fostats-pp.php" ></iframe>
+</div>
+</body>
