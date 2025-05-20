@@ -35,9 +35,10 @@ iframe{
 Follow along with the Florida State Men's club lacrosse face-off athletes and improve skills with the included training tools. View the individual game by game performances of each face-off athlete on the FSU lacrosse team throughout the season. Use the built in whistle and random cadence tool to improve your whistle discipline!
 
 <div style="display: flex; gap: 20px; justify-content: center;">
-   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/53/19/41/5319410d-3a34-bc96-f669-abff924a7c4a/home.png/400x800bb.png" width=200>
-   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d1/68/7e/d1687ebc-b420-0be0-6781-0e4ccab4a946/details.png/400x800bb.png" width=200>
-   <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/a7/00/65a700d8-a361-b9f4-2a68-2923e411bb39/expense.png/400x800bb.png" width=200>
+   <img src="https://github.com/wcouture/NolesFOStats/raw/main/assets/promo-images/NolesFO-Home.png" width=200>
+   <img src="https://github.com/wcouture/NolesFOStats/raw/main/assets/promo-images/NolesFO-Trainer.png" width=200>
+   <img src="https://github.com/wcouture/NolesFOStats/raw/main/assets/promo-images/player-details.png" width=200>
+   <img src="https://github.com/wcouture/NolesFOStats/raw/main/assets/promo-images/game-details.png" width=200>
 </div>
 
 <h3>Download Now!</h3>
