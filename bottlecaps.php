@@ -42,7 +42,7 @@ Easily track and manage your budget through an easy to understand interface. Cre
 
 <h3>Download Now!</h3>
 
-<a href="https://apps.apple.com/us/app/bottle-caps/id6744372300">Bottle-caps</a> is available for download in the IOS app store now!
+<a href="https://apps.apple.com/us/app/bottle-caps/id6746142713">Bottle-caps</a> is available for download in the IOS app store now!
 
 <h2>Framework and Dependencies</h2>
 
