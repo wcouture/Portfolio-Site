@@ -171,11 +171,11 @@
 .date-label {
   font-size: 11pt;
   color: grey;
-  margin: -10px 0;
+  margin: -8px 0;
 }
 
 .project-title {
-  font-size: 16pt;
+  font-size: 18pt;
   max-width: 33%;
   min-width: 25%;
   text-align: center;
