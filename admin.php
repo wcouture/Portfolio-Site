@@ -32,10 +32,11 @@ else if (isset($_POST["submit"])) {
     $proj_desc = $_POST["description"];
     $proj_repo = $_POST["github"];
     $proj_src = $_POST["demo"];
+    $proj_date = $_POST["date"];
 
     $db = create_db_connection('portfolio');
 
-    $sql = 'INSERT INTO portfolio_item (title, description, repo_link, src, demo) VALUES ("'. $proj_title . '","'. $proj_desc . '","'. $proj_repo . '","'. $proj_src . '",1);';
+    $sql = 'INSERT INTO portfolio_item (title, description, repo_link, src, demo, date) VALUES ("'. $proj_title . '","'. $proj_desc . '","'. $proj_repo . '","'. $proj_src . '",1, "'.$proj_date.'");';
     $results = $db->query($sql);
 
     header('/');
@@ -64,6 +65,10 @@ if (!$authorized) {
             <tr>
                 <td><label>Project Description: </label></td>
                 <td><input type="text" name="description" id="description"/></td>
+            </tr>
+            <tr>
+                <td><label>Project Date: </label></td>
+                <td><input type="text" name="date" id="date"/></td>
             </tr>
             <tr>
                 <td><label>GitHub Link: </label></td>
