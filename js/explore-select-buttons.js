@@ -13,47 +13,43 @@ var repo_link = document.getElementById("repo-link");
 var running = false;
 
 function select_project(element) {
-    if (running || element.id == last_active_id)
-        return;
+  if (running || element.id == last_active_id) return;
 
-    running = true;
-    id = element.id;
-    next_select = document.getElementById(id);
-    next_select.className = "select-option active";
+  running = true;
+  id = element.id;
+  next_select = document.getElementById(id);
+  next_select.className = "select-option active";
 
-    old_select = document.getElementById(last_active_id);
-    old_select.className = "select-option";
+  old_select = document.getElementById(last_active_id);
+  old_select.className = "select-option";
 
-    last_active_id = id;
+  last_active_id = id;
 
-    demo_iframe.className = "project-iframe hidden";
-    demo_container.className = "iframe-container hidden";
-    details_container.className = "project-details hidden";
+  demo_iframe.className = "project-iframe hidden";
+  demo_container.className = "iframe-container hidden";
+  details_container.className = "project-details hidden";
 
+  setTimeout(() => {
+    // Update project data
+    item = portfolio_items[last_active_id];
+    demo_iframe.src = item["src"];
+    project_title.innerHTML =
+      item["title"] + "<br><p class='date-label'>" + item["date"] + "</p>";
+    project_title.href = item["src"];
 
+    project_description.innerText = item["description"];
+    repo_link.href = item["repo_link"];
 
+    demo_iframe.className = "project-iframe";
+  }, 500);
+  setTimeout(() => {
+    demo_container.className = "iframe-container revealing";
+    details_container.className = "project-details";
     setTimeout(() => {
-        // Update project data
-        item = portfolio_items[last_active_id];
-        demo_iframe.src = item["src"];
-        project_title.innerText = item["title"];
-        project_title.href = item["src"];
-        project_description.innerText = item["description"];
-        repo_link.href = item["repo_link"];
-
-
-        demo_iframe.className = "project-iframe";
-
+      demo_container.className = "iframe-container";
+      running = false;
     }, 500);
-    setTimeout(() => {
-        demo_container.className = "iframe-container revealing";
-        details_container.className = "project-details"
-        setTimeout(
-            () => {
-                demo_container.className = "iframe-container";
-                running = false;
-            },500);
-    }, 1000);
+  }, 1000);
 }
 
-select_project(document.getElementById('0'));
+select_project(document.getElementById("0"));
