@@ -16,6 +16,7 @@
 .profile-image {
   flex-grow: 2;
   min-width: 200px;
+  max-width: 40%;
   height: auto;
 }
 
@@ -32,6 +33,7 @@
   flex-direction: column;
   flex-grow: 1;
   min-width: 200px;
+  max-width: 40%;
   text-wrap: wrap;
 }
 
