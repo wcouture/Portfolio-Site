@@ -171,6 +171,7 @@
 .date-label {
   font-size: 11pt;
   color: grey;
+  margin: 0;
 }
 
 .project-title {
