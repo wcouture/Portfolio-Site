@@ -16,7 +16,7 @@
 .profile-image {
   flex-grow: 2;
   min-width: 200px;
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
 }
 
