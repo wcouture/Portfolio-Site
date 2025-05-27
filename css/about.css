@@ -57,10 +57,10 @@
   border: 1.5px solid black;
   color: black;
   text-decoration: none;
-  transition: linear 0.15s;
+  transition: ease-in-out 0.15s;
 }
 
 .resume-link:hover {
-  scale: 110%;
-  transition: linear 0.15s;
+  font-size: 15pt;
+  transition: ease-in-out 0.15s;
 }
