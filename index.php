@@ -45,6 +45,7 @@
                             "description": "<?php echo $row["description"]; ?>",
                             "repo_link": "<?php echo $row["repo_link"]; ?>",
                             "src": "<?php echo $row["src"]; ?>",
+                            "date": "<?php echo $row["date"]; ?> ",
                         }
                         portfolio_items.push(item);
                         </script>
@@ -56,7 +57,7 @@
         </div>
         <div id="project-details-container" class="project-details">
             <a href="<?php echo $item["src"]?>" target="blank" id="project-title" class="project-title">
-                <?php echo $item["title"]?>
+                <?php echo $item["title"]?><br><p class="date-label"><?php echo $item["date"]?></p>
             </a>
             <a id="repo-link" target="blank" href="<?php echo $item["repo_link"]?>" class="repo-link">GitHub Repo</a><br>
             <div id="project-description" class="project-description">
