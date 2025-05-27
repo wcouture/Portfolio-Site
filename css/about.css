@@ -28,7 +28,8 @@
 .about-header {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  max-width: 500px;
+  text-wrap: wrap;
 }
 
 .about-name {
