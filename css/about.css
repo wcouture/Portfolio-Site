@@ -61,6 +61,6 @@
 }
 
 .resume-link:hover {
-  padding: 12px;
+  scale: 103%;
   transition: linear 0.15s;
 }
