@@ -56,10 +56,11 @@
   border-radius: 15px;
   border: 1.5px solid black;
   color: black;
-  transition: linear 0.3s;
+  text-decoration: none;
+  transition: linear 0.15s;
 }
 
 .resume-link:hover {
   padding: 12px;
-  transition: linear 0.3s;
+  transition: linear 0.15s;
 }
