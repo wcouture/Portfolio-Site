@@ -13,7 +13,7 @@
 }
 
 .profile-image {
-  max-width: 300px;
+  flex-grow: 2;
   height: auto;
 }
 
@@ -28,7 +28,7 @@
 .about-header {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  flex-grow: 1;
   text-wrap: wrap;
 }
 
