@@ -36,7 +36,16 @@ body {
 .page-title {
   font-size: 28pt;
   text-align: center;
-  padding-bottom: 50px;
+}
+
+.page-subtitle {
+  font-size: 14pt;
+  color: grey;
+  font-style: italic;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 50px;
 }
 
 .header-nav-container {
@@ -65,6 +74,22 @@ body {
   margin-top: 50px;
   width: 100px;
   transition: ease-in-out 1s;
+}
+
+@media (max-width: 900px) {
+  .header-nav-container {
+    position: static;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: -100px;
+  }
+
+  .header-nav-container.scrolled {
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .nav-item {

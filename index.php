@@ -19,7 +19,28 @@
     }
 ?>
 
-Home page
+<section class="home-container">
+    <p class="page-title">Welcome to WillC-Dev</p>
+    <p class="page-subtitle">A portfolio of development projects</p>
+
+    <div class="project-collection">
+        <?php while($row = $results->fetch_assoc()) { ?>
+        <div class="project-card">
+            <div class="project-image-container">
+                <img src="/images/door.png" alt="door image" class="project-image">
+            </div>
+            <div class="project-information-container">
+                <a href="<?php echo $row["src"];?>" class="project-title"><?php echo $row["title"];?></a>
+                <p class="project-date"><?php echo Date("y - m - d");?></p>
+                <a href="<?php echo $row["repo_link"]; ?>" class="project-link">GitHub Repo</a>
+                <p class="project-details"><?php echo $row["description"]; ?></p>
+            </div>
+        </div>
+        <?php } ?>
+    </div>
+
+</section>
+
 
 <?php
     include_once $root . "/includes/footer.php";
