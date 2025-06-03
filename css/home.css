@@ -61,13 +61,27 @@
   border-radius: 5px;
 }
 
+@media (max-width: 1500px) {
+  .project-card {
+    flex-direction: column;
+  }
+  .project-information-container {
+    border-left: 0px;
+  }
+}
+
 @media (max-width: 1300px) {
   .project-image {
     max-width: 175px;
   }
 
   .project-card {
+    flex-direction: row;
     max-width: 70%;
+  }
+
+  .project-information-container {
+    border-left: 1px solid rgb(202, 202, 202);
   }
 
   .project-collection {
