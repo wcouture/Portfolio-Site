@@ -79,4 +79,8 @@
   .project-card {
     flex-direction: column;
   }
+
+  .project-information-container {
+    border-left: 0px;
+  }
 }
