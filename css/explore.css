@@ -219,3 +219,10 @@
   background-color: white;
   background-position: fixed;
 }
+
+.demo-disabled-message {
+  width: 60%;
+  text-align: center;
+  color: grey;
+  margin: 20px auto;
+}

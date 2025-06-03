@@ -23,7 +23,7 @@
     var item;
     </script>
 
-<div class="explore-container">
+<div id="explore-container" class="explore-container">
     <div class="left-column"></div>
     <div class="middle-column">
         <div class="page-title">
@@ -72,6 +72,7 @@
     <div class="right-column"></div>
 </div>
 <script src="/js/explore-select-buttons.js"></script>
+<script src="/js/explore-phone-disable.js"></script>
 <?php
 include_once $root . "/includes/footer.php";
 ?>
