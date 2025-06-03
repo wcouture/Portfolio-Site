@@ -10,6 +10,7 @@
 
 .project-card {
   max-width: 35%;
+  height: auto;
   background-color: #e8e8e8;
   padding: 20px;
   border-radius: 10px;
