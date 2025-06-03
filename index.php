@@ -27,11 +27,11 @@
         <?php while($row = $results->fetch_assoc()) { ?>
         <div class="project-card">
             <div class="project-image-container">
-                <img src="/images/door.png" alt="door image" class="project-image">
+                <img src="<?php echo $row["image"];?>" alt="door image" class="project-image">
             </div>
             <div class="project-information-container">
                 <a href="<?php echo $row["src"];?>" class="project-title"><?php echo $row["title"];?></a>
-                <p class="project-date"><?php echo Date("y - m - d");?></p>
+                <p class="project-date"><?php echo $row["date"];?></p>
                 <a href="<?php echo $row["repo_link"]; ?>" class="project-link">GitHub Repo</a>
                 <p class="project-details"><?php echo $row["description"]; ?></p>
             </div>
