@@ -24,7 +24,8 @@
     </head>
     <body>
         <div id="header-nav-container" class="header-nav-container">
-            <a href="/" class="nav-item <?php if ($page_title == "explore") echo "active"; ?>">Explore</a>
+            <a href="/" class="nav-item <?php if ($page_title == "home") echo "active"; ?>">Home</a>
+            <a href="/explore" class="nav-item <?php if ($page_title == "explore") echo "active"; ?>">Explore</a>
             <a href="/about" class="nav-item <?php if ($page_title == "about") echo "active"; ?>">About</a>
             <a href="/contact" class="nav-item <?php if ($page_title == "contact") echo "active"; ?>">Contact</a>
         </div>
