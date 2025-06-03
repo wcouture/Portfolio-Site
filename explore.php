@@ -2,7 +2,7 @@
     $root = $_SERVER["DOCUMENT_ROOT"];
 
     $page_title = "explore";
-    $page_css = "<link rel='stylesheet' type='text/css' href='/css/home.css'>";
+    $page_css = "<link rel='stylesheet' type='text/css' href='/css/explore.css'>";
 
 
     include $root . "/includes/header.php";
