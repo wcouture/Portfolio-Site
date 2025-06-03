@@ -27,7 +27,7 @@
         <?php while($row = $results->fetch_assoc()) { ?>
         <div class="project-card">
             <div class="project-image-container">
-                <img src="<?php echo $row["image"];?>" alt="door image" class="project-image">
+                <img src="/images/projects/<?php echo str_replace(" ", "-", $row["title"]);?>.png" alt="project image" class="project-image">
             </div>
             <div class="project-information-container">
                 <a href="<?php echo $row["src"];?>" class="project-title"><?php echo $row["title"];?></a>
