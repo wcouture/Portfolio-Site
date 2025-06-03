@@ -57,13 +57,12 @@
   flex: 1;
   max-width: 200px;
   height: auto;
-  border: 2px solid grey;
   border-radius: 15px;
 }
 
 @media (max-width: 1300px) {
   .project-image {
-    max-width: 100px;
+    max-width: 175px;
   }
 
   .project-card {
