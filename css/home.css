@@ -65,6 +65,10 @@
   .project-card {
     flex-direction: column;
   }
+  .project-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
   .project-information-container {
     border-left: 0px;
   }
