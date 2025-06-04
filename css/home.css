@@ -30,7 +30,8 @@
   gap: 10px;
 }
 
-.dev-icons img {
+.dev-icons img,
+svg {
   max-width: 50px;
 }
 
