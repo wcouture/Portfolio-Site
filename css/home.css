@@ -11,15 +11,38 @@
 .dev-icons {
   width: 75%;
   margin: 20px auto 30px auto;
-  display: flex;
-  flex-wrap: wrap;
+}
 
+.icon-section {
+  padding: 10px;
+}
+
+.icon-section-label {
+  color: grey;
+  width: 100%;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .dev-icons img {
   max-width: 50px;
+}
+
+.projects-header {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18pt;
+
+  padding: 50px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .project-card {
