@@ -8,6 +8,20 @@
   row-gap: 50px;
 }
 
+.dev-icons {
+  width: 75%;
+  margin: 20px auto 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 20px;
+}
+
+.dev-icons img {
+  max-width: 50px;
+}
+
 .project-card {
   max-width: 35%;
   height: auto;
