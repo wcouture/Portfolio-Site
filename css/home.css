@@ -35,7 +35,7 @@
 }
 
 .projects-header {
-  width: 75%;
+  max-width: 75vw;
   margin: 0 auto;
   text-align: center;
   font-size: 18pt;
