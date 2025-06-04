@@ -1,0 +1,19 @@
+.error-container {
+  height: 75vh;
+}
+
+.error-header {
+  padding-top: 50px;
+  font-size: 28pt;
+  font-style: italic;
+}
+
+.error-message {
+  font-size: 14pt;
+  color: grey;
+}
+
+.error-header .error-message {
+  max-width: 65%;
+  margin: 0 auto;
+}
